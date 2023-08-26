@@ -372,6 +372,8 @@ namespace Modbus_Poll_CS
 
             lblStatus.Text = mb.modbusStatus;
             lbl_status.Text = "Connected";
+            lbl_status.ForeColor = Color.Green;
+
         }
         private void StopPoll()
         {
@@ -384,6 +386,7 @@ namespace Modbus_Poll_CS
 
             lblStatus.Text = mb.modbusStatus;
             lbl_status.Text = "DisConnected";
+            lbl_status.ForeColor = Color.Red;
         }
         private void btnStart_Click(object sender, EventArgs e)
         {

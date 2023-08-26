@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lstBaudrate = new System.Windows.Forms.ComboBox();
             this.lstPorts = new System.Windows.Forms.ComboBox();
@@ -50,6 +50,8 @@
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabControl_value = new System.Windows.Forms.TabControl();
             this.tabPage_Signal = new System.Windows.Forms.TabPage();
+            this.lbl_status = new System.Windows.Forms.Label();
+            this.status = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
@@ -328,8 +330,6 @@
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.status = new System.Windows.Forms.Label();
-            this.lbl_status = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -480,9 +480,9 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus});
-            this.statusStrip.Location = new System.Drawing.Point(0, 451);
+            this.statusStrip.Location = new System.Drawing.Point(0, 457);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(1256, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1255, 22);
             this.statusStrip.TabIndex = 5;
             this.statusStrip.Text = "statusStrip";
             // 
@@ -559,6 +559,28 @@
             this.tabPage_Signal.TabIndex = 0;
             this.tabPage_Signal.Text = "Signal";
             this.tabPage_Signal.UseVisualStyleBackColor = true;
+            // 
+            // lbl_status
+            // 
+            this.lbl_status.AutoSize = true;
+            this.lbl_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_status.ForeColor = System.Drawing.Color.Red;
+            this.lbl_status.Location = new System.Drawing.Point(915, 21);
+            this.lbl_status.Name = "lbl_status";
+            this.lbl_status.Size = new System.Drawing.Size(67, 17);
+            this.lbl_status.TabIndex = 48;
+            this.lbl_status.Text = "Connect";
+            // 
+            // status
+            // 
+            this.status.AutoSize = true;
+            this.status.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.status.ForeColor = System.Drawing.Color.Green;
+            this.status.Location = new System.Drawing.Point(809, 21);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(54, 17);
+            this.status.TabIndex = 47;
+            this.status.Text = "Status";
             // 
             // label56
             // 
@@ -882,7 +904,7 @@
             this.tabPage_Coff.Location = new System.Drawing.Point(4, 22);
             this.tabPage_Coff.Name = "tabPage_Coff";
             this.tabPage_Coff.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Coff.Size = new System.Drawing.Size(1252, 411);
+            this.tabPage_Coff.Size = new System.Drawing.Size(1038, 411);
             this.tabPage_Coff.TabIndex = 1;
             this.tabPage_Coff.Text = "Coeff";
             this.tabPage_Coff.UseVisualStyleBackColor = true;
@@ -1528,7 +1550,7 @@
             this.tabPage_controller.Controls.Add(this.groupBox13);
             this.tabPage_controller.Location = new System.Drawing.Point(4, 22);
             this.tabPage_controller.Name = "tabPage_controller";
-            this.tabPage_controller.Size = new System.Drawing.Size(1252, 411);
+            this.tabPage_controller.Size = new System.Drawing.Size(1038, 411);
             this.tabPage_controller.TabIndex = 3;
             this.tabPage_controller.Text = "Controller";
             this.tabPage_controller.UseVisualStyleBackColor = true;
@@ -1997,16 +2019,16 @@
             // 
             // chart_thd
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_thd.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart_thd.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.chart_thd.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart_thd.Legends.Add(legend5);
             this.chart_thd.Location = new System.Drawing.Point(376, 271);
             this.chart_thd.Name = "chart_thd";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart_thd.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.chart_thd.Series.Add(series5);
             this.chart_thd.Size = new System.Drawing.Size(678, 131);
             this.chart_thd.TabIndex = 51;
             // 
@@ -2339,16 +2361,16 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea6.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chart1.Legends.Add(legend6);
             this.chart1.Location = new System.Drawing.Point(376, 3);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chart1.Series.Add(series6);
             this.chart1.Size = new System.Drawing.Size(678, 268);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -2481,7 +2503,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1252, 411);
+            this.tabPage1.Size = new System.Drawing.Size(1038, 411);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "DeviceInfo";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -2671,7 +2693,7 @@
             this.tabPageCalibAdc.Controls.Add(this.groupBox18);
             this.tabPageCalibAdc.Location = new System.Drawing.Point(4, 22);
             this.tabPageCalibAdc.Name = "tabPageCalibAdc";
-            this.tabPageCalibAdc.Size = new System.Drawing.Size(1252, 411);
+            this.tabPageCalibAdc.Size = new System.Drawing.Size(1038, 411);
             this.tabPageCalibAdc.TabIndex = 6;
             this.tabPageCalibAdc.Text = "CalibAdc";
             this.tabPageCalibAdc.UseVisualStyleBackColor = true;
@@ -3221,29 +3243,11 @@
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
-            // status
-            // 
-            this.status.AutoSize = true;
-            this.status.Location = new System.Drawing.Point(809, 21);
-            this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(37, 13);
-            this.status.TabIndex = 47;
-            this.status.Text = "Status";
-            // 
-            // lbl_status
-            // 
-            this.lbl_status.AutoSize = true;
-            this.lbl_status.Location = new System.Drawing.Point(912, 21);
-            this.lbl_status.Name = "lbl_status";
-            this.lbl_status.Size = new System.Drawing.Size(47, 13);
-            this.lbl_status.TabIndex = 48;
-            this.lbl_status.Text = "Connect";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 473);
+            this.ClientSize = new System.Drawing.Size(1255, 479);
             this.Controls.Add(this.tabControl_value);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.btnStop);
