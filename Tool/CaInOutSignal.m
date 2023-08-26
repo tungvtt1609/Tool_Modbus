@@ -1,0 +1,8 @@
+fx = fopen('Data2.txt')
+data = textscan(fx,'%s')
+x = str2double(data{1}(2:2:end))
+fclose(fx)
+fy = fopen('Data1.txt')
+data = textscan(fy,'%s')
+y = str2double(data{1}(2:2:end))
+fclose(fy)

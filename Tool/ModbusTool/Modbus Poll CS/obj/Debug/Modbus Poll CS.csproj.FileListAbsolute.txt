@@ -1,0 +1,42 @@
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.exe.config
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.exe
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.pdb
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\FftSharp.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\ScottPlot.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\ScottPlot.WinForms.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\SergeUtils.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Buffers.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Drawing.Common.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Memory.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Numerics.Vectors.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.ValueTuple.dll
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.AssemblyReference.cache
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus_Poll_CS.Form1.resources
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus_Poll_CS.Properties.Resources.resources
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.GenerateResource.cache
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.CoreCompileInputs.cache
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.CopyComplete
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.exe
+D:\2.WORK\VMC\Solar\GIT\m1_solar_hybrid\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.pdb
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.exe.config
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.exe
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\Modbus Poll CS.pdb
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\FftSharp.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\ScottPlot.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\ScottPlot.WinForms.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\SergeUtils.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Buffers.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Drawing.Common.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Memory.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Numerics.Vectors.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\bin\Debug\System.ValueTuple.dll
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.AssemblyReference.cache
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus_Poll_CS.Form1.resources
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus_Poll_CS.Properties.Resources.resources
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.GenerateResource.cache
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.CoreCompileInputs.cache
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.csproj.CopyComplete
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.exe
+E:\1.WORK\Tri\Tool\ModbusTool\Modbus Poll CS\obj\Debug\Modbus Poll CS.pdb
