@@ -46,13 +46,13 @@ namespace Modbus_Poll_CS
         Series series2 = new Series();
         Series series3 = new Series();
         Series series4 = new Series();
-    #region GUI Delegate Declarations
-    public delegate void GUIDelegate();
+        #region GUI Delegate Declarations
+        public delegate void GUIDelegate();
         public delegate void GUIClear();
         public delegate void GUIStatus(string paramString);
         public delegate void GUITEXTBOX(TextBox txt, string paramString);
         #endregion
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -62,6 +62,7 @@ namespace Modbus_Poll_CS
             DoGUICombobox();
 
         }
+
 
         #region Delegate Functions
         public void DoGUIClear()
@@ -373,6 +374,8 @@ namespace Modbus_Poll_CS
             lblStatus.Text = mb.modbusStatus;
             lbl_status.Text = "Connected";
             lbl_status.ForeColor = Color.Green;
+            //DateTime current_time = DateTime.Now;
+            //textBox_date.Text += current_time.ToString();
 
         }
         private void StopPoll()
